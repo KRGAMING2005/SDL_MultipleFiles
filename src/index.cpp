@@ -1,6 +1,6 @@
 #include <iostream>
 #include <SDL2/SDL.h>
-#include "fem.hpp"
+#include "headers/fem.hpp"
 
 using namespace std;
 
