@@ -1,9 +1,13 @@
 #include <iostream>
 #include <SDL2/SDL.h>
+#include "fem.hpp"
 
 using namespace std;
 
 int main(int argc, char *argv[]) {
+    
+    FemClass fem = FemClass();
+    fem.printFem();
 
     SDL_Init(SDL_INIT_VIDEO);
 
